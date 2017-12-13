@@ -1,0 +1,8 @@
+# This overrides the dependency tracker with the protobuf library file.
+set(@PROJECT_NAME@_LIBRARIES
+    @CATKIN_DEVEL_PREFIX@/lib/libgstbase-1.0${CMAKE_SHARED_LIBRARY_SUFFIX}
+    @CATKIN_DEVEL_PREFIX@/lib/libgstcheck-1.0${CMAKE_SHARED_LIBRARY_SUFFIX}
+    @CATKIN_DEVEL_PREFIX@/lib/libgstcontroller-1.0${CMAKE_SHARED_LIBRARY_SUFFIX}
+    @CATKIN_DEVEL_PREFIX@/lib/libgstnet-1.0${CMAKE_SHARED_LIBRARY_SUFFIX}
+    @CATKIN_DEVEL_PREFIX@/lib/libgstreamer-1.0${CMAKE_SHARED_LIBRARY_SUFFIX}
+)
